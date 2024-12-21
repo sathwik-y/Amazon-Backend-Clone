@@ -1,0 +1,7 @@
+Input validation
+API documentation (e.g., Swagger/OpenAPI)
+Unit tests for your services
+Custom exception classes
+But overall, your implementation is solid and follows Spring Boot best practices. Adding JWT later is a good approach since you have a working authentication system with Spring Security's default session-based auth.
+
+The SecurityConfig is properly configured for basic authentication, which is perfectly fine for initial development.
